@@ -2,7 +2,7 @@ import java.util.*;
 public class BFSMatrix{
 public void bfs(int[][] graph,int start){
 int n=graph.length;
-boolean[]visited=new boolaen[n];
+boolean[]visited=new boolean[n];
 Queue<Integer>queue=new LinkedList<>();
 visited[start]=true;
 queue.offer(start);while(!queue.isEmpty()){
